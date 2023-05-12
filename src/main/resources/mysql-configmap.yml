@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-conf
+data:
+ host: mysql-server:3306
+ name: userkafka
